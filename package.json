@@ -1,0 +1,27 @@
+{
+  "name": "loopqa-test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env BROWSERS=$BROWSERS HEADLESS=$HEADLESS npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "playwright": "^1.49.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@typescript-eslint/eslint-plugin": "^8.18.0",
+    "@typescript-eslint/parser": "^8.18.0",
+    "allure-playwright": "^3.0.7",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.16.0",
+    "prettier": "^3.4.2"
+  }
+}
